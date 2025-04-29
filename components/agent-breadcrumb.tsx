@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { ChevronRight, Home } from "lucide-react"
 
@@ -35,4 +37,3 @@ export function AgentBreadcrumb({ items }: AgentBreadcrumbProps) {
     </nav>
   )
 }
-

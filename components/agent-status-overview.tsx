@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, useEffect } from "react"
 import { BugIcon as Spider, Search, BookOpen, Lightbulb, Wrench, Github } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
@@ -51,4 +53,3 @@ export function AgentStatusOverview() {
     </div>
   )
 }
-

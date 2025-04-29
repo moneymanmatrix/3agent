@@ -23,4 +23,3 @@ export function TemikaMLNLP({ isOpen, onClose }: TemikaMLNLPProps) {
     </div>
   )
 }
-

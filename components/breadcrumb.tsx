@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { ChevronRight, Home } from "lucide-react"
@@ -44,4 +46,3 @@ export function Breadcrumb() {
     </nav>
   )
 }
-

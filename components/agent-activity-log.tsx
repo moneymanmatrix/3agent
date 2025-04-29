@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, useEffect } from "react"
 import {
   BugIcon as Spider,
@@ -142,4 +144,3 @@ export function AgentActivityLog() {
     </div>
   )
 }
-
